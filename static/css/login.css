@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+.container{
+    display: flex;
+
+}
+.container .left-container{
+    width: 50%;
+    padding-left: 150px;
+}
+.container .left-container h1{
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+}
+.container .left-container p{
+    margin-top: 30px;
+    font-family: 'Karla', sans-serif;
+}
+.container .left-container p a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.container .left-container .image img{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+.container .right-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 50px;
+    align-items: center;
+}
+.container .right-container form{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.6);
+}
+.container .right-container form input{
+    padding: 10px 20px;
+    width: 200px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgba(167, 167, 167, 0.118);
+    border-radius: 7px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.container .right-container form input:hover::placeholder{
+    padding-left: 15px;
+    transition: .5s;
+}
+.container .right-container form a{
+    margin-top: 20px;
+}
+.container .right-container form a:hover{
+    color: #194aeb;
+}
+.container .right-container form button{
+    padding: 10px 20px;
+    width: 230px;
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color: #5071df;
+    font-size: 20px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border: none;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.container .right-container form button:hover{
+    background-color: #2a4dbd;
+}
